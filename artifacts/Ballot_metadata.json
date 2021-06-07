@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "candidatesCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_candidateId",
+						"type": "uint256"
+					}
+				],
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Decentralized-Voting/Voting.sol": "Ballot"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Decentralized-Voting/Controller.sol": {
+			"keccak256": "0x1f0d6b4f658623810adb6d28c87893438e2c8ab612961fff0e1f9248b0d8f04a",
+			"urls": [
+				"bzz-raw://de61e243ac5cb83c97acf6ce4210cd453a351c1477596a3aef9f7389715f5c35",
+				"dweb:/ipfs/QmWbVZAwstJAgfS9QP4wfbuyo66mcFmM8iAhQH1n5gTLFT"
+			]
+		},
+		"Decentralized-Voting/IStorage.sol": {
+			"keccak256": "0x609eb1440061db195240fc0ea666bd1ea2096e9fec562c04e76762b74017be1e",
+			"urls": [
+				"bzz-raw://cc79f995c3d08f679dde6fe5311393b874eb146eff6bfb89ae7cefb4e0aa20f4",
+				"dweb:/ipfs/QmchVpFu8XA57roKqKfVFmRaYkfJR9R9oQuKhjXttmiGCr"
+			]
+		},
+		"Decentralized-Voting/Voting.sol": {
+			"keccak256": "0x58f3e9e232a6ab089ab51a8ebc42b4d0e962319a104e8511f630c983817ffb5b",
+			"urls": [
+				"bzz-raw://8f05f56d9456e28cdd8788f8a7d45ecfdd4b2f95467d6a5618daf60166eaa319",
+				"dweb:/ipfs/QmfDaBu5m2BDztmYLFnamwKHfimRdoNfJ2Dr54MN6xigXQ"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {
+			"keccak256": "0x1cae4f85f114ff17b90414f5da67365b1d00337abb5bce9bf944eb78a2c0673c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d5ff16b336ce8f906478d5f2eecc6435e00833bdc0b92f6b209cf9e92cb5b2b7",
+				"dweb:/ipfs/QmRD1rAZEqQ73C33cdA3QoUyBDMEWnNKNMc6PNkAZWHeQQ"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Context.sol": {
+			"keccak256": "0xf930d2df426bfcfc1f7415be724f04081c96f4fb9ec8d0e3a521c07692dface0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fc2bfdea0d2562c76fb3c4cf70a86c6ba25c5a30e8f8515c95aafdf8383f8395",
+				"dweb:/ipfs/QmTbFya18786ckJfLYUoWau9jBTKfmWnWm5XSViWvB7PXN"
+			]
+		}
+	},
+	"version": 1
+}

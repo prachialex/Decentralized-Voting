@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Decentralized-Voting/Storage.sol": "Storage"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Decentralized-Voting/Storage.sol": {
+			"keccak256": "0x5401752af855ebf0e66ba530a2827eba7f50dde689747bb99b8a056f4afba1f4",
+			"urls": [
+				"bzz-raw://ab72fb7ac689b2bcf438cde31b343d06180a608a9259070b307d018d7306044b",
+				"dweb:/ipfs/QmRMkQhWjZQMuugmj384kiB7kVQCf11xfjt5n9coHoF6fg"
+			]
+		}
+	},
+	"version": 1
+}
